@@ -28,3 +28,14 @@ After compiling the code by ``make``, the following example can be performed, wh
 - ``n_obj`` specifies the number of objectives.
 - ``pset_size`` specifies the subset size $k$.
 - ``roi_radius`` determines the radius of the approximated ROI $r$.
+
+Optionally, the IGD$^+$-C value of a subset can be calculated as follows:
+
+1. Download the IGD-reference point set for IGD$^+$-C from [this Google drive](https://drive.google.com/file/d/1meHoFWIzfatfQ6UEzj0mEKDCe9APHEnk/view?usp=share_link), where the IGD-reference point set is already trimmed so that it is in the ROI.
+2. Untar the downloaded file. Below, I assume that ``unnorma_igdc_ref_point_dataset`` is at the same directory level.
+3. Perform the following example, where ``pp_res.csv`` is generated in the above example.
+
+> Python igdcplus.py --igd_refpset_file_path unnorma_igdc_ref_point_dataset/DTLZ1_d2_z-type0_r0.1.csv --pset_file_path pp_res.csv
+
+- ``igd_refpset_file_path`` is a file path to the trimmed IGD-reference point set.
+- ``pset_file_path`` is a file path to the point set to be evaluated.

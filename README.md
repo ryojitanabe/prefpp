@@ -2,7 +2,7 @@
 
 This repository provides the C++ implementation of a preference-based postprocessing method proposed in the following paper:
 
-> Ryoji Tanabe: **On the Unbounded External Archive and Population Size in Preference-based Evolutionary Multi-objective Optimization Using a Reference Point**, Proc. ACM Genetic and Evolutionary Computation Conference [(GECCO2023)](https://gecco-2023.sigevo.org), pdf, supplement
+> Ryoji Tanabe: **On the Unbounded External Archive and Population Size in Preference-based Evolutionary Multi-objective Optimization Using a Reference Point**, Proc. ACM Genetic and Evolutionary Computation Conference [(GECCO2023)](https://gecco-2023.sigevo.org), [pdf](https://arxiv.org/abs/2304.03566)
 
 This repository uses the C++ implementation of the ND-Tree-based update method proposed in the following paper:
 
